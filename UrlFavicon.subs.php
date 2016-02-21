@@ -11,7 +11,7 @@
 function urlFavicon()
 {
 	addInlineJavascript('
-		$(\'.bbc_link\').each(function() {
+		$(\'.inner .bbc_link\').each(function() {
 			var url = $(this).attr(\'href\'),
 				domain = url.match(/:\/\/(.[^/]+)/)[1],
 				schema = url.match(/^(http[s]*):\/\//)[1];
