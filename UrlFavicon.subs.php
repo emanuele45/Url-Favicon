@@ -2,10 +2,10 @@
 /**
  * Url Favicon
  *
- * @author emanuele
+ * @author emanuele & BurkeKnight
  * @license   BSD http://opensource.org/licenses/BSD-3-Clause
  *
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 function urlFavicon()
