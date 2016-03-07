@@ -5,15 +5,15 @@
 /**
  * Url Favicon
  *
- * @author emanuele
+ * @author emanuele & BurkeKnight
  * @license   BSD http://opensource.org/licenses/BSD-3-Clause
  *
- * @version 0.0.1
+ * @version 0.0.2
  */
 	]]></license>
 	<id>emanuele:url_favicon</id>
 	<name>Url Favicon</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<type>modification</type>
 	<install for="1.0 RC1 - 1.0.99">
 		<require-file name="UrlFavicon.subs.php" destination="SUBSDIR" />
