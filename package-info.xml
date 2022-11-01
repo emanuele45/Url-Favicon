@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
-<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+<!DOCTYPE package-info SYSTEM "https://www.elkarte.net/xml/package-info">
+<package-info xmlns="https://www.elkarte.net/xml/package-info" xmlns:smf="https://www.elkarte.net/">
 	<license><![CDATA[
 /**
  * Url Favicon
@@ -15,11 +15,11 @@
 	<name>Url Favicon</name>
 	<version>0.0.2</version>
 	<type>modification</type>
-	<install for="1.0 RC1 - 1.0.99">
+	<install for="1.0 RC1 - 1.1.99">
 		<require-file name="UrlFavicon.subs.php" destination="SUBSDIR" />
 		<hook hook="integrate_load_theme" file="SUBSDIR/UrlFavicon.subs.php" function="urlFavicon" />
 	</install>
-	<uninstall for="1.0 RC1 - 1.0.99">
+	<uninstall for="1.0 RC1 - 1.1.99">
 		<remove-file name="SUBSDIR/UrlFavicon.subs.php" />
 		<hook reverse="true" hook="integrate_load_theme" file="SUBSDIR/UrlFavicon.subs.php" function="urlFavicon" />
 	</uninstall>

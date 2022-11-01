@@ -11,14 +11,9 @@
 function urlFavicon()
 {
 	addInlineJavascript('
-		$(\'.inner .bbc_link\').each(function() {
-			var url = $(this).attr(\'href\'),
-				domain = url.match(/:\/\/(.[^/]+)/)[1],
-				schema = url.match(/^(http[s]*):\/\//)[1];
+		$(\'.bbc_link\').each(function() {
 			$(this).css({
-				\'background-image\': \'url(//www.google.com/s2/favicons?domain=\' + schema + \'://\' + domain + \')\',
-				\'background-repeat\': \'no-repeat\',
-				\'background-position\': \'0 2px\',
+				\'background\': \'url(//www.google.com/s2/favicons?domain=\' + this.hostname + \') left center no-repeat\',
 				\'padding-left\': \'18px\'
 			});
 		})', true);
