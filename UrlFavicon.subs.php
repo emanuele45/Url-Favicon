@@ -11,7 +11,7 @@
 function urlFavicon()
 {
 	addInlineJavascript('
-		$(\'.bbc_link\').each(function() {
+		$(\'.messageContent .bbc_link\').each(function() {
 			$(this).css({
 				\'background\': \'url(//www.google.com/s2/favicons?domain=\' + this.hostname + \') left center no-repeat\',
 				\'padding-left\': \'18px\'

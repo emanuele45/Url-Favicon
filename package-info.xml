@@ -8,18 +8,18 @@
  * @author emanuele & BurkeKnight
  * @license   BSD http://opensource.org/licenses/BSD-3-Clause
  *
- * @version 0.0.2
+ * @version 0.0.3
  */
 	]]></license>
 	<id>emanuele:url_favicon</id>
 	<name>Url Favicon</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<type>modification</type>
-	<install for="1.0 RC1 - 1.1.99">
+	<install for="1.1 - 1.1.99">
 		<require-file name="UrlFavicon.subs.php" destination="SUBSDIR" />
 		<hook hook="integrate_load_theme" file="SUBSDIR/UrlFavicon.subs.php" function="urlFavicon" />
 	</install>
-	<uninstall for="1.0 RC1 - 1.1.99">
+	<uninstall for="1.1 - 1.1.99">
 		<remove-file name="SUBSDIR/UrlFavicon.subs.php" />
 		<hook reverse="true" hook="integrate_load_theme" file="SUBSDIR/UrlFavicon.subs.php" function="urlFavicon" />
 	</uninstall>
