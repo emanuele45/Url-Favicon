@@ -15,15 +15,17 @@ Will show:
 
 <a href=https://www.elkarte.net/community/index.php><img src="https://www.google.com/s2/favicons?domain=http://www.elkarte.net" alt="www.elkarte.net" /> ElkArte</a>
 
-<hr />
+* * *
 
 This ElkArte Addon is subject to the terms of the BSD "3-clause" license.
 
 You can obtain a copy of the License at https://opensource.org/licenses/BSD-3-Clause
 
-<hr />
+* * *
 
 Changelog:
+0.0.4 - January 13, 2024 - Remove jQuery dependency
+
 0.0.3 - November 01, 2022 - Use .hostname function in place of regex
 
 0.0.2 - February 21, 2016 - Version that will not effect signatures - BurkeKnight
