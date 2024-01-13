@@ -24,6 +24,7 @@ You can obtain a copy of the License at https://opensource.org/licenses/BSD-3-Cl
 * * *
 
 Changelog:
+
 0.0.4 - January 13, 2024 - Remove jQuery dependency
 
 0.0.3 - November 01, 2022 - Use .hostname function in place of regex
